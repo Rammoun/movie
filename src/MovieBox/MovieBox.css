@@ -1,0 +1,16 @@
+.box{
+  flex-basis: 20%; display: flex; flex-direction: column;  border: solid; text-align: center; margin: 0 2% 2% 2%;
+}
+.boxHead{align-self: flex-end; padding-right: 2%}
+.boxBody{
+  width:100%; border-bottom: solid; border-top: solid;
+}
+.boxBody img{
+  width: 90%; padding-top: 3%; padding-bottom: 3%;
+}
+.add{display: none; justify-content: space-around; }
+.add input{margin-right: 3%;}
+.plusBtn{min-height: 200px; text-align: center; font-size: 400%; padding: 4%;}
+.box:hover{
+  box-shadow: 0 0 20px blue;
+}
